@@ -18,11 +18,12 @@
 }
 
 html {
-  font-size: 10px;
+
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif; 
+    background-color: var(--light-blue) !important;
 }
 
 p {
@@ -34,8 +35,16 @@ img {
   width: 100%;
 }
 
-.container {
+.container{
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.box{
+  height: 100vh;
+}
+
+form input{
+  text-align: center;
 }

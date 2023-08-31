@@ -9,16 +9,27 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="script.js"></script>
   </head>
   <body>
-    <div class="code-text">
-      <p>Hello World!!!</p>
-    </div>
-    <div class="code copy">
-      <input type="text" name="code" id="">
+    <div class="container">
+      <div class="row justify-content-center align-items-center box">
+        <div class="col-md-6">
+          <h4 class="text-white pb-2">Get 25% Discount with this coupon</h4>
+          <form action="" class="d-flex">
+            <input
+              type="text"
+              class="form-control form-control-lg me-2 text-center coupon"
+              id="coupon"
+              value="ZinoTrust"
+            />
+            <button class="btn btn-outline-light" id="copy-btn">Copy</button>
+          </form>
+        </div>
+      </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>
